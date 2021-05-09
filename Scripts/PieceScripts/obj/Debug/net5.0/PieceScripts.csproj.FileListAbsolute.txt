@@ -1,0 +1,5 @@
+C:\Users\cjeme\OneDrive\Documents\Unity Projects\Fantasy Kings\Assets\Scripts\PieceScripts\obj\Debug\net5.0\PieceScripts.csprojAssemblyReference.cache
+C:\Users\cjeme\OneDrive\Documents\Unity Projects\Fantasy Kings\Assets\Scripts\PieceScripts\obj\Debug\net5.0\PieceScripts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cjeme\OneDrive\Documents\Unity Projects\Fantasy Kings\Assets\Scripts\PieceScripts\obj\Debug\net5.0\PieceScripts.AssemblyInfoInputs.cache
+C:\Users\cjeme\OneDrive\Documents\Unity Projects\Fantasy Kings\Assets\Scripts\PieceScripts\obj\Debug\net5.0\PieceScripts.AssemblyInfo.cs
+C:\Users\cjeme\OneDrive\Documents\Unity Projects\Fantasy Kings\Assets\Scripts\PieceScripts\obj\Debug\net5.0\PieceScripts.csproj.CoreCompileInputs.cache
