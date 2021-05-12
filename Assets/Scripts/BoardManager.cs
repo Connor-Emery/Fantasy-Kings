@@ -228,17 +228,17 @@ public class BoardManager : MonoBehaviour
    			SpawnPiece(2, -15, 35, (float)3);
    			SpawnPiece(2, 15, 35, (float)3);
    			//knights
-   			SpawnPiece(1, -25, 35, 0);
-   			SpawnPiece(1, 25, 35, 0);
+   			SpawnPiece(1, -25, 35, (float)2.5);
+   			SpawnPiece(1, 25, 35, (float)2.5);
    			//pawns
    			int x = -35;
    			for (int i = 0; i < 8; i++){
-   				SpawnPiece (0, x, 25, 0);
+   				SpawnPiece (0, x, 25, (float)2.5);
    				x += 10;
    			}
    		//spawn black pieces
    			//king
-   			SpawnBlackPiece(11, -5, -35, 0); 
+   			SpawnBlackPiece(11, -5, -35,(float)3.8); 
    			//queen
    			SpawnBlackPiece(10, 5, -35, (float)3.5);
    			//rooks
@@ -248,8 +248,8 @@ public class BoardManager : MonoBehaviour
    			SpawnBlackPiece(8, -15, -35, 2);
    			SpawnBlackPiece(8, 15, -35, 2);
    			//knights
-   			SpawnBlackPiece(7, -25, -35, 0);
-   			SpawnBlackPiece(7, 25, -35, 0);
+   			SpawnBlackPiece(7, -25, -35, (float)3.4);
+   			SpawnBlackPiece(7, 25, -35, (float)3.4);
    			//pawns
    			x = -35;
    			for (int i = 0; i < 8; i++){

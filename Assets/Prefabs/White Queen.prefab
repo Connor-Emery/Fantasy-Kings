@@ -173,7 +173,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 411589757615055382}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4ec470b3300e534e8dc3146906c9a58, type: 3}
   m_Name: 
@@ -193,6 +193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isWhite: 1
   targetPosition: {x: 0, y: 0, z: 0}
+  anim: {fileID: 0}
 --- !u!1 &418501890542817304
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,21 +11,27 @@ public abstract class ChessPieces : MonoBehaviour
 	public Vector3 targetPosition;
 	public Animator anim;
 
+	private Quaternion facingDirection;
+
 	private void Start(){
 		targetPosition = transform.position;
 		anim = GetComponent<Animator>();
+		facingDirection = Quaternion.LookRotation(transform.forward);
 	}
 
 	private void Update(){
 
-		//while(transform.position != targetPosition){
 			transform.position = Vector3.MoveTowards(transform.position, targetPosition, 10*Time.deltaTime);
-			if (targetPosition != transform.position)
+			if (targetPosition != transform.position){
+				Vector3 direction = targetPosition - transform.position;
+				Quaternion rotation = Quaternion.LookRotation(direction);
+				transform.rotation = Quaternion.Lerp(transform.rotation, rotation, 2*Time.deltaTime);
 				anim.SetBool("isWalking", true);
-			else
+			}
+			else{
 				anim.SetBool("isWalking", false);
-			//yield return null;
-		//}
+				transform.rotation = Quaternion.Lerp(transform.rotation, facingDirection, 2*Time.deltaTime);
+			}
 		
 	}
 

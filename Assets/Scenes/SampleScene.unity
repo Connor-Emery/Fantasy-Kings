@@ -170,7 +170,7 @@ MonoBehaviour:
   piecePrefabs:
   - {fileID: 8730120333979491371, guid: 8ca87f29c2a36e24c988a0920116aad0, type: 3}
   - {fileID: 5930329905912292150, guid: 5ef0716cca3fa324a872fed27d6c360c, type: 3}
-  - {fileID: 8272947695888682612, guid: 41383ef1ab850d54fbf2cce8c3068ff9, type: 3}
+  - {fileID: 2987909307885236144, guid: b8e5b532206427e4699ed566c2ae61ca, type: 3}
   - {fileID: 1156089357560724536, guid: 474a8768cfd0cd446a05648bd4caeee2, type: 3}
   - {fileID: 411589757615055382, guid: caee8084959d16247b35af41422f9ab4, type: 3}
   - {fileID: 3161488433081972394, guid: 0d4141c032da86f45b33dbde17343629, type: 3}
@@ -208,9 +208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7423fdf1d3d5b8c479c50d778cf7adcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  go: {fileID: 92407309}
-  chessBoard: {fileID: 92407311}
-  playingWhite: 0
 --- !u!1 &220903824
 GameObject:
   m_ObjectHideFlags: 0
